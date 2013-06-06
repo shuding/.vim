@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/dsds/Documents'
+let g:netrw_dirhist_2='/Users/dsds/Documents/Codes/Python/SPOJ'
+let g:netrw_dirhist_3='/Users/dsds/Desktop/2106_2013-04-28_12-28-45_input'
+let g:netrw_dirhist_4='/Users/dsds/Documents/Codes/OI/BZOJ'
+let g:netrw_dirhist_5='/Users/dsds/Documents'
