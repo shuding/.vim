@@ -19,13 +19,13 @@ if version > 580
 	syntax reset
     endif
 endif
-let g:colors_name="desert"
+let g:colors_name="desert2"
     
 hi Normal   	guifg=White     guibg=gray20
 
 " highlight groups
-hi Cursor   	guibg=white     guifg=slategrey
-"hi CursorIM
+hi Cursor   guibg=white     guifg=slategrey
+"hi CursorIM   guibg=gray      guifg=gray
 "hi Directory
 "hi DiffAdd
 "hi DiffChange
@@ -108,7 +108,7 @@ hi Error	cterm=bold ctermfg=7 ctermbg=1
 "append
 hi CursorColumn guibg=black
 hi CursorLine guibg=black
-hi LineNR guifg=skyblue
+hi LineNR guifg=skyblue gui=Italic
 hi ColorColumn guibg=orange
 hi CursorLineNR cterm=bold guifg=red
 

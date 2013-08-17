@@ -25,6 +25,9 @@ snippet for
 # unfortunately version this isn't as nice as TextMates's, given the lack of a
 # dynamic `...`
 snippet printf
-	printf("$1", $2);
+	printf("${1}", ${2});
 snippet scanf
-	scanf("$1", $2);
+	scanf("${1}", ${2});
+snippet freopen
+	freopen("${1:data}.in", "r", stdin);
+	freopen("$1.out", "w", stdout);
